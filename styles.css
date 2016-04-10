@@ -20,6 +20,14 @@ a {
   cursor: pointer;
   cursor: hand;
 }
+pre {
+  font-family: Consolas, 'courier new';
+}
+pre a {
+  font-family: Consolas, 'courier new';
+  text-decoration: none;
+  font-weight: bold;
+}
 button {
   font-family: Arial;
   background-color: #eee;
@@ -139,4 +147,16 @@ nav a.router-link-active {
 /* everywhere else */
 * { 
   font-family: Arial, Helvetica, sans-serif; 
+}
+
+.table-light tr,
+.table-light td {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  padding: 0;
+}
+
+.table-light tr:last-child td {
+  border-bottom: 0;
 }
